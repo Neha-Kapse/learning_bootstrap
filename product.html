@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Header Start-->
+    <nav class="navbar navbar-expand-lg bg-primary data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Mobile Shop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index1.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="product.html">Products</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gallery
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="photo_gallery.html">Photo</a></li>
+            <li><a class="dropdown-item" href="video_gallery.html">Videos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<!--header end-->
+    <main>
+      <!-- Product Section Start -->
+      <section class="mt-5 bg-info py-4">
+        <h1 class="mb-4 text-center">Our Products</h1>
+
+        <div class="container">
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img
+                  src="images/img5.jpeg"
+                  class="card-img-top"
+                  alt="I-phone17"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">XIAOMI 12</h5>
+                  <p class="card-text">Rs: 1,50,000</p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#XIAOMI12"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img
+                  src="images/img2.jpeg"
+                  class="card-img-top"
+                  alt="I-phone14"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">I-phone14</h5>
+                  <p class="card-text">Rs: 89,999</p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Iphone17"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="images/img8.jpeg" class="card-img-top" alt="Camon" />
+                <div class="card-body">
+                  <h5 class="card-title">Samsung</h5>
+                  <p class="card-text">Rs: 50,000</p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Samsung"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Product Section End -->
+    </main>
+
+    <!-- Modal XIAOMI12 START-->
+    <div class="modal fade" id="XIAOMI12" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">XIAOMI 12 Details</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <img
+                    src="images/img5.jpeg"
+                    class="card-img-top"
+                    alt="I-phone17"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <p>
+                    The Xiaomi 12 is a premium smartphone featuring a vibrant
+                    6.28-inch AMOLED 120Hz display, Snapdragon 8 Gen 1
+                    processor, and a 50MP triple camera system for high-quality
+                    photos. It includes a 4500mAh battery with 67W fast
+                    charging, making it both powerful and efficient for everyday
+                    use.
+                  </p>
+                  <p>Latest iPhone with advanced features.</p>
+                  <ul>
+                    <li>Storage: 256GB</li>
+                    <li>Camera: 48MP</li>
+                    <li>Battery: 5000mAh</li>
+                  </ul>
+                  <table class="table table-bordered mt-3">
+                    <tr>
+                      <th>Camera</th>
+                      <td>50 MP</td>
+                    </tr>
+                    <tr>
+                      <th>Battery</th>
+                      <td>5000mAh</td>
+                    </tr>
+                    <tr>
+                      <th>Storage</th>
+                      <td>256GB</td>
+                    </tr>
+                    <tr>
+                      <th>Processor</th>
+                      <td>Snapdragon 8 Gen 1</td>
+                    </tr>
+                  </table>
+                  <div class="d-flex gap-3 mt-3">
+                    <button class="btn btn-warning">Add to Cart</button>
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal XIAOMI12 END-->
+
+    <!-- Modal Iphone17 START-->
+    <div class="modal fade" id="Iphone17" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Iphone17 Details</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <img
+                    src="images/img2.jpeg"
+                    class="card-img-top"
+                    alt="I-phone17"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <p>
+                    iPhone 17 is Apple’s latest flagship smartphone, designed
+                    with a premium look and powerful performance. It features a
+                    6.7-inch Super Retina XDR display, the advanced A19 Bionic
+                    processor, a 48MP high-quality camera system, and a
+                    long-lasting 5000mAh battery. The device supports fast 5G
+                    connectivity, Face ID security, and runs on the latest iOS
+                    for a smooth user experience.
+                  </p>
+                  <p>Latest iPhone with advanced features.</p>
+                  <ul>
+                    <li>Storage: 256GB</li>
+                    <li>Camera: 48MP</li>
+                    <li>Battery: 5000mAh</li>
+                  </ul>
+                  <table class="table table-bordered mt-3">
+                    <tr>
+                      <th>Camera</th>
+                      <td>50 MP</td>
+                    </tr>
+                    <tr>
+                      <th>Battery</th>
+                      <td>5000mAh</td>
+                    </tr>
+                    <tr>
+                      <th>Storage</th>
+                      <td>256GB</td>
+                    </tr>
+                    <tr>
+                      <th>Processor</th>
+                      <td>Snapdragon 8 Gen 1</td>
+                    </tr>
+                  </table>
+                  <div class="d-flex gap-3 mt-3">
+                    <button class="btn btn-warning">Add to Cart</button>
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Iphone 17 end-->
+
+    <!-- model samsung start -->
+    <div class="modal fade" id="Samsung" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Samsung Details</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <img
+                    src="images/img8.jpeg"
+                    class="card-img-top"
+                    alt="Samsung"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <p>
+                    Samsung Galaxy S23 is a premium smartphone that offers a
+                    sleek design and powerful performance. It comes with a
+                    6.1-inch Dynamic AMOLED 2X display, powered by the
+                    Snapdragon 8 Gen 2 processor, and features a 50MP triple
+                    camera system for stunning photos and videos. The Galaxy S23
+                    also supports 5G connectivity, has a long-lasting battery,
+                    and runs on Samsung’s One UI based on Android for a smooth
+                    and reliable user experience.
+                  </p>
+                  <p>Latest iPhone with advanced features.</p>
+                  <ul>
+                    <li>Storage: 256GB</li>
+                    <li>Camera: 48MP</li>
+                    <li>Battery: 5000mAh</li>
+                  </ul>
+                  <table class="table table-bordered mt-3">
+                    <tr>
+                      <th>Camera</th>
+                      <td>50 MP</td>
+                    </tr>
+                    <tr>
+                      <th>Battery</th>
+                      <td>5000mAh</td>
+                    </tr>
+                    <tr>
+                      <th>Storage</th>
+                      <td>256GB</td>
+                    </tr>
+                    <tr>
+                      <th>Processor</th>
+                      <td>Snapdragon 8 Gen 1</td>
+                    </tr>
+                  </table>
+                  <div class="d-flex gap-3 mt-3">
+                    <button class="btn btn-warning">Add to Cart</button>
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- model samsung end -->
+    <!-- Modal End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
