@@ -10,6 +10,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   </head>
   <body>
     <!--Header Start-->
@@ -52,8 +53,134 @@
     </div>
   </div>
 </nav>
-<h1>This is contact page</h1>
+
 <!--header end-->
+
+    <!-- Contact Section start -->
+<main class="py-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- Form -->
+      <div class="col-md-6">
+        <form class="border border-primary p-4 rounded">
+          <h4 class="mb-3">Contact Us</h4>
+
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control">
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control">
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Phone</label>
+              <input type="tel" class="form-control">
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Alternate Phone</label>
+              <input type="tel" class="form-control">
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label class="form-label">Country</label>
+              <select class="form-select">
+                <option>US</option>
+                <option>India</option>
+                <option>UK</option>
+              </select>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label class="form-label">State</label>
+              <select class="form-select">
+                <option>Maharashtra</option>
+                <option>MP</option>
+                <option>Gujarat</option>
+              </select>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label class="form-label">City</label>
+              <select class="form-select">
+                <option>Pune</option>
+                <option>Nashik</option>
+                <option>Mumbai</option>
+              </select>
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Gender</label><br>
+              <input type="radio" name="gender"> Male
+              <input type="radio" name="gender" class="ms-3"> Female
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Username</label>
+              <div class="input-group">
+                <input type="text" class="form-control">
+                <span class="input-group-text">@example.com</span>
+              </div>
+            </div>
+
+            <div class="col-md-12 mb-3">
+              <label class="form-label">Address</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+
+            <div class="col-md-12">
+              <button class="btn btn-primary w-100">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Map -->
+      <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27366.55177214121!2d73.73878987431642!3d18.6582506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9004c61e34f%3A0xc4025ff596a196da!2sSS%20Mobile%20-%20Nigdi%20Pradhikaran!5e1!3m2!1sen!2sin!4v1769779700722!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- Social Media -->
+<section class="py-4">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col-md-4">
+    <h3>Social Media</h3>
+    <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+    <a href="https://youtube.com" target="_blank"><i class="bi bi-youtube ms-3"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram ms-3"></i></a>
+  </div>
+  
+  <div class="col-md-8">
+    <i class="bi bi-geo-alt-fill"></i><h5>Address</h5>
+    <p>abc tech mobile Shop<br>
+    Near Pimpri Maharastra<br>
+  -411057
+   </p>
+  </div>
+    </div>
+    
+  </div>
+
+</section>
+
+<style>
+  .bi { font-size: 40px; }
+  .bi-facebook { color: blue; }
+  .bi-youtube { color: red; }
+  .bi-instagram { color: purple; }
+</style>
+<!--Contact end-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -61,3 +188,4 @@
     ></script>
   </body>
 </html>
+
